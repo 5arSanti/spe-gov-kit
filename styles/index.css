@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("../../assets/fonts/Work_Sans/static/WorkSans-Regular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p, span, div, h2, h1 {
+    font-family: "Montserrat-Regular" !important;
+    margin: 0 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: transparent;
+}
+button {
+    border: none;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
